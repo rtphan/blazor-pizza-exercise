@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Microsoft.AspNetCore.Components/5.0.1": {
+        "type": "package"
+      },
+      "Microsoft.AspNetCore.Components.Web/5.0.1": {
+        "type": "package"
+      },
+      "BlazingPizza.ComponentsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.1",
+          "Microsoft.AspNetCore.Components.Web": "5.0.1"
+        },
+        "compile": {
+          "bin/placeholder/BlazingPizza.ComponentsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingPizza.ComponentsLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.Components/5.0.1": {
+      "sha512": "wKzIbnqOHlca2eNKhbvR+myhZR4BdV6ln0B8V4sBgrS+s4YHKH3vlFQFd3ADLlekLVM14u/Va5/jrZKelfxzCQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net5.0/Microsoft.AspNetCore.Components.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Components.xml",
+        "microsoft.aspnetcore.components.5.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Web/5.0.1": {
+      "sha512": "V6xFfvYBEpHdKGrLJL9Dk3tRkV3Fke1rMOQ9j24gwKTU+kRNlLgbnPmJLDpFfJ5TcXAhX8VYMhFHlMWZgR0/hA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.web/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net5.0/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Components.Web.xml",
+        "microsoft.aspnetcore.components.web.5.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
+    "BlazingPizza.ComponentsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj",
+      "msbuildProject": "../BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "BlazingPizza.ComponentsLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/rtphan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/BlazingPizza.Shared.csproj",
+      "projectName": "BlazingPizza.Shared",
+      "projectPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/BlazingPizza.Shared.csproj",
+      "packagesPath": "/home/rtphan/.nuget/packages/",
+      "outputPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/rtphan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj": {
+              "projectPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Components 5.0.1 is not compatible with netstandard2.1 (.NETStandard,Version=v2.1). Package Microsoft.AspNetCore.Components 5.0.1 supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Components",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Components.Web 5.0.1 is not compatible with netstandard2.1 (.NETStandard,Version=v2.1). Package Microsoft.AspNetCore.Components.Web 5.0.1 supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Components.Web",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

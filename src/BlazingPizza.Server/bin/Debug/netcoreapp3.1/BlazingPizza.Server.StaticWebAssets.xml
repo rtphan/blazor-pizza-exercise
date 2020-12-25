@@ -1,0 +1,7 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/BlazingPizza.ComponentsLibrary" Path="/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/wwwroot/" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="/home/rtphan/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/3.2.0/build/../staticwebassets/" />
+  <ContentRoot BasePath="/" Path="/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Client/bin/Debug/netstandard2.1/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Client/wwwroot/" />
+  <ContentRoot BasePath="/Identity" Path="/home/rtphan/.nuget/packages/microsoft.aspnetcore.identity.ui/3.1.4/build/../staticwebassets/V4/" />
+</StaticWebAssets>

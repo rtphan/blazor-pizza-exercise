@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "dgSpecHash": "qRcxC+UKflVJWVexW2qmzL1lUS5H9wT/3MaEev4nZgBbiWsw3FGBbYzv7GEpl92i0Gb4qQ5l7hyIOu4YulQNNA==",
+  "success": false,
+  "projectFilePath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Client/BlazingPizza.Client.csproj",
+  "expectedPackageFiles": [
+    "/home/rtphan/.nuget/packages/microsoft.aspnetcore.components/5.0.1/microsoft.aspnetcore.components.5.0.1.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/microsoft.aspnetcore.components.web/5.0.1/microsoft.aspnetcore.components.web.5.0.1.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/microsoft.aspnetcore.components.webassembly/5.0.1/microsoft.aspnetcore.components.webassembly.5.0.1.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/5.0.1/microsoft.aspnetcore.components.webassembly.authentication.5.0.1.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/system.net.http.json/3.2.0/system.net.http.json.3.2.0.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.0/system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/system.text.encodings.web/4.7.0/system.text.encodings.web.4.7.0.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/system.text.json/4.7.1/system.text.json.4.7.1.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.Components.WebAssembly.Build with version (>= 5.0.1)\n  - Found 9 version(s) in nuget.org [ Nearest version: 5.0.0-preview.6.20312.15 ]",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.Build",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Extensions.Http with version (>= 5.0.1)\n  - Found 48 version(s) in nuget.org [ Nearest version: 5.0.0 ]",
+      "libraryId": "Microsoft.Extensions.Http",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

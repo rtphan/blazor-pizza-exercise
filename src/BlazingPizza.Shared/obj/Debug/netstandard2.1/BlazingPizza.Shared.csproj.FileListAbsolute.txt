@@ -1,0 +1,12 @@
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.Shared.deps.json
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.Shared.dll
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.Shared.pdb
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.ComponentsLibrary.dll
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.ComponentsLibrary.pdb
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.csprojAssemblyReference.cache
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.AssemblyInfoInputs.cache
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.AssemblyInfo.cs
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.csproj.CoreCompileInputs.cache
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.csproj.CopyComplete
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.dll
+/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.pdb

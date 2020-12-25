@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Client/BlazingPizza.Client.csproj": {}
+  },
+  "projects": {
+    "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Client/BlazingPizza.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Client/BlazingPizza.Client.csproj",
+        "projectName": "BlazingPizza.Client",
+        "projectPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Client/BlazingPizza.Client.csproj",
+        "packagesPath": "/home/rtphan/.nuget/packages/",
+        "outputPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rtphan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj": {
+                "projectPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj"
+              },
+              "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/BlazingPizza.Shared.csproj": {
+                "projectPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/BlazingPizza.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj",
+        "projectName": "BlazingPizza.ComponentsLibrary",
+        "projectPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj",
+        "packagesPath": "/home/rtphan/.nuget/packages/",
+        "outputPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rtphan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/BlazingPizza.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/BlazingPizza.Shared.csproj",
+        "projectName": "BlazingPizza.Shared",
+        "projectPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/BlazingPizza.Shared.csproj",
+        "packagesPath": "/home/rtphan/.nuget/packages/",
+        "outputPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rtphan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj": {
+                "projectPath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

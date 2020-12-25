@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "trLngNZsLjxJzlkK5Gzv10ai/nqf2DMm67fBRnzxArCVmdxUAKWbL82aAudiQavvEBg4lZZPbdYgTyMutmDHZQ==",
+  "success": false,
+  "projectFilePath": "/home/rtphan/blazor-pizza-exercise/src/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj",
+  "expectedPackageFiles": [
+    "/home/rtphan/.nuget/packages/microsoft.aspnetcore.components/5.0.1/microsoft.aspnetcore.components.5.0.1.nupkg.sha512",
+    "/home/rtphan/.nuget/packages/microsoft.aspnetcore.components.web/5.0.1/microsoft.aspnetcore.components.web.5.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Components 5.0.1 is not compatible with netstandard2.1 (.NETStandard,Version=v2.1). Package Microsoft.AspNetCore.Components 5.0.1 supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Components",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Components.Web 5.0.1 is not compatible with netstandard2.1 (.NETStandard,Version=v2.1). Package Microsoft.AspNetCore.Components.Web 5.0.1 supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Components.Web",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

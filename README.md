@@ -2,11 +2,11 @@
 
 Tutorial provided by [dotnet-presentations](https://github.com/dotnet-presentations/blazor-workshop).
 
-## Tutorial Steps
+## Tutorial Sessions
 
-* [Part 0: Build your first Blazor app](https://github.com/dotnet-presentations/blazor-workshop/blob/master/docs/00-get-started.md)
+* [Session 0: Build your first Blazor app](https://github.com/dotnet-presentations/blazor-workshop/blob/master/docs/00-get-started.md)
     > **Status**: `Completed`
-* [Part 1: Get started with components](https://github.com/dotnet-presentations/blazor-workshop/blob/master/docs/00-get-started.md)
+* [Session 1: Get started with components](https://github.com/dotnet-presentations/blazor-workshop/blob/master/docs/00-get-started.md)
     > **Status**: `In Progress`
 
 ## Sources
